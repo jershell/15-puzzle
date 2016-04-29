@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <title>fifteen</title>
+        <script type="text/javascript" src="./bower_components/fabric/dist/fabric.min.js"></script>
+        <script type="text/javascript" src="./bower_components/jquery/dist/jquery.min.js"></script>
+        <script type="text/javascript" src="./bower_components/lodash/lodash.min.js"></script>
+        <script type="text/javascript" src="./15-puzzle.js"></script>
+    </head>
+<body>
+<script type="text/javascript">
+
+    document.addEventListener("DOMContentLoaded", function(){
+        var canvas = $("#canvas");
+        var fifteen = new FifteenPuzzle(canvas[0]);
+    });
+
+</script>
+
+<canvas id="canvas"></canvas>
+</body>
+</html>
