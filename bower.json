@@ -1,7 +1,7 @@
 {
   "name": "15-puzzle",
   "main": [
-	"15-puzzle.js"
+	"./15-puzzle.js"
   ],
   "version": "1.0.0",
   "authors": [
@@ -16,8 +16,8 @@
     "tests"
   ],
   "dependencies": {
-    "jquery": "~2.1.4",
-    "fabric": "~1.5.0",
-    "lodash": "~3.10.1"
+    "jquery": "~1.12.0",
+    "fabric": "~1.4.7",
+    "lodash": "~4.13.1"
   }
 }
