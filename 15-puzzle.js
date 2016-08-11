@@ -192,7 +192,9 @@
                 var group = new fabric.Group([rect, txt ], {
                     //left: jdx*puzzleWidth+offset-1,
                     //top: idx*puzzleWidth+offset-1,
-                    selectable: false
+                    selectable: false,
+                    width: 2 + (puzzleWidth - offset * 2),
+                    height: 2 + (puzzleHeight - offset * 2),
                     //angle: -10
                 });
             return group;
