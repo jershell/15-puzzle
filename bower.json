@@ -1,9 +1,9 @@
 {
   "name": "15-puzzle",
   "main": [
-	"./15-puzzle.js"
+	"./dist/15-puzzle.min.js"
   ],
-  "version": "1.0.1",
+  "version": "1.0.2",
   "authors": [
     "jershell <jershell@mail.ru>"
   ],
@@ -18,6 +18,6 @@
   "dependencies": {
     "jquery": "~1.12.0",
     "fabric": "~1.4.7",
-    "lodash": "~4.13.1"
+    "lodash": "~4.15.0"
   }
 }
